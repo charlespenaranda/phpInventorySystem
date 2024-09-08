@@ -1,0 +1,301 @@
+body, html {
+    height: 100%;
+  }
+
+.btn {
+
+    background-color: black;
+    color: #777;
+    height: 40px;
+    width: 80px;
+    border-radius: 4px;
+
+    display: grid;
+    place-items: center;
+
+}
+
+.btn-1 {
+
+    margin-top: 20px;
+    color: #777;
+    width: 100%;
+    border-radius: 4px;
+
+    place-items: center;
+
+}
+
+.parallax {
+
+  background-image: url("../img/pcb.jpg");
+
+  height: 100%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: grid;
+  place-items: center;
+}
+
+.parallax-1 {
+
+    background-image: url("../img/pcb2.jpg");
+  
+    height: 40%; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-2 {
+
+    background-image: url("../img/electronics-header-image.jpg");
+  
+    height: 100%; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: grid;
+    place-items: center;
+  }
+
+.para-div-main {
+
+    height: 700px;
+
+}
+.para-div-1 {
+
+    height:280px;
+    background-color:white;
+    text-align: justify;
+    letter-spacing: 4px;
+    color: #777;
+    font-size:15px;
+    padding: 50px;
+
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+
+}
+
+.para-div-1-dark {
+
+    width: 99%;
+    height:600px;
+    background-color:#385c8c;
+    font-size:15px;
+    padding: 10px;
+    text-align: justify;
+    letter-spacing: 4px;
+    color: white;
+
+    place-items: center;
+    overflow: hidden;
+
+}
+
+.para-div-2 {
+
+    height:150px;
+    background-color:#385c8c;
+    text-align: justify;
+    letter-spacing: 4px;
+    color: white;
+    font-size:12px;
+    padding: 50px;
+
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+
+}
+
+.para-div-bottom {
+
+    height:80px;
+    background-color: white;
+    text-align: justify;
+    letter-spacing: 4px;
+    color: black;
+    font-size:12px;
+    padding: 50px;
+
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+
+}
+
+ .para-div {
+    width: 90%;
+    height:600px;
+    background-color:white;
+    font-size:15px;
+    padding: 10px;
+    text-align: justify;
+    letter-spacing: 4px;
+    color: #777;
+
+    place-items: center;
+    overflow: hidden;
+
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+
+.input-div {
+
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+    align-items: center;
+
+}
+
+.input-div-2 {
+
+    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+
+    place-items: center;
+    align-items: center;
+
+
+}
+
+.input-div-1 {
+
+    width: 100%;
+    padding-left: 5%;
+    display: grid;
+    place-items: left;
+    gap: 10px;
+
+}
+
+.input-text-2 {
+
+    width: 100%;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .input-area-2 {
+
+    width: 100%;
+    height: 90px;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+  }
+
+  .input-div-footer {
+
+    width: 100%;
+    padding-top: 4%;
+    padding-left: 75%;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    place-items: center;
+    align-items: center;
+    gap: 1%;
+
+}
+
+img {
+
+    height: 50px;
+    width: 50px;
+    padding-bottom: 8px;
+  }
+
+.title-div {
+
+    display: grid;
+    place-items: center;
+    align-items: center;
+    font-size:12px;
+}
+
+.tile-2-div {
+
+    padding-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    place-items: center;
+    align-items: center;
+
+}
+
+.tile-1-div {
+
+  width: 80%;
+  height: 500px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 3px;
+
+}
+
+.tile-1-div-1 {
+
+  width: 80%;
+  height: 500px;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.tile-text {
+
+  padding: 20px;
+
+}
+
+.div-career-1 {
+
+  width: 65%;
+  font-size: 24px;
+  text-align: left;
+  
+}
+
+span {
+
+  text-align: left;
+  font-size: 16px;
+
+}
+
